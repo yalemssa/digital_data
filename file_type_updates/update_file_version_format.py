@@ -39,9 +39,9 @@ def update_file_versions(row, sesh, headers, api_url, dirpath):
         print(traceback.format_exc())
 
 def main():
-    api_url, headers = u.login('https://testarchivesspace.library.yale.edu/api', 'amd243', 'Fluffernutter27')
-    dirpath = '/Users/aliciadetelich/Desktop/file_type_updates/data/test_do_backups_v3'
-    header_row, csvfile = u.opencsv('/Users/aliciadetelich/Desktop/file_type_updates/data/file_version_data_test.csv')
+    api_url, headers = u.login()
+    dirpath = 'test_do_backups_v3'
+    header_row, csvfile = u.opencsv('file_version_data_test.csv')
     try:
         print('Starting session...')
         with requests.Session() as sesh:
