@@ -1,0 +1,39 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+aspace_tools/scripts/
+
+aspace_tools/scripts/sql
+
+aspace_tools/implementations
+
+# data folder
+/data/
+
+#pycache folder
+/__pycache__/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+/*.egg
+
+# Eclipse project files
+*.project
+*.pydevproject
+
+# My password file
+
+# System files
+*.DS_Store
+
+#other
+*.README.md.html
+
+*.todo.MD
+
+aspace_tools/data/
+
+aspace_tools/.DS_Store
